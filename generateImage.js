@@ -39,7 +39,7 @@ const avimg= await Canvas.loadImage(avatarURL)
 ctx.save()
 
 ctx.beginPath()
-ctx.arc(av.x + av.size/2 , av.y +av.size/2 , av.size/2 , 0 ,Math.PI * 2 , true)
+ctx.arc(av.x + av.size/2 , av.y + av.size/2 , av.size/2 , 0 ,Math.PI * 2 , true)
 ctx.closePath()
 ctx.clip()
 
@@ -53,12 +53,12 @@ ctx.textAlign="centre"
 // big welcome message
 ctx.font="50px Comic Sans MS"
 ctx.fillText("Welcome!!", dim.width/2 , dim.margin+25)
-ctx.textAlign="centre"
+//ctx.textAlign="centre"
 
 // call in user
 ctx.font="60px Comic Sans MS"
 ctx.fillText(username , discrim , dim.width/2 , dim.height-dim.margin-125)
-ctx.textAlign="centre"
+//ctx.textAlign="centre"
 
 // call in welcome
 ctx.font="40px Comic Sans MS"

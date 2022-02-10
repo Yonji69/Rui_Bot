@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 require("dotenv").config()
-const TOKEN="OTQwOTkwODU1NzczMzE1MTUy.YgPcBg.lD_qzxi_ewtXltO0h-TLPio0BTY"
+const TOKEN="OTQwOTkwODU1NzczMzE1MTUy.YgPcBg.lD_qzxi_ewtXltO0h-TLPio0BTY".env()
 
 const generateImage= require("./generateImage")
 const client = new Discord.Client({
